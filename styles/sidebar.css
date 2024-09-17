@@ -1,0 +1,39 @@
+.side-bar{
+  position:fixed;
+  left:18px;
+  right: 10px;
+  bottom: 0;
+  top:55px;
+  width:72px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 400px;
+  
+}
+.home-sidebar{
+  height: 30px;
+  margin-top: 25px;
+}
+.explore-sidebar{
+  height: 30px;
+  margin-top: 20px;
+}
+.subscription-sidebar{
+  height: 30px;margin-top: 20px;
+  margin-top: 20px;
+
+}
+.orginals-sidebar{
+  height: 30px;  
+  margin-top: 20px;
+}
+.youtubeMusic-sidebar{
+  height: 30px;
+  margin-top: 20px;
+}
+.library-sidebare{
+  height: 30px;
+  margin-top: 20px;
+}

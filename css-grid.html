@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Grid practice</title>
+  </head>
+  <body>
+    <style>
+      p{
+        font-family: Roboto,Arial;
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+      .video-card{
+        display: block;
+       
+      }
+      .thumbnail{
+        width: 300px;
+        display: inline-block;
+     
+    
+      }
+      .surch-bar{
+        font-size: 20px;
+        margin-left: 12px;
+    
+      }
+    
+      .video-title {
+        margin: 0;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+        margin-bottom: 15px;
+        margin-top: 15px;
+      }
+      
+     
+    .video-author,
+    .video-stats {
+    font-size: 12px;
+    color: rgb(96, 96, 96);
+    margin-top: 15px;
+    }
+    .video-author{
+      margin-bottom: 6PX;
+    }    
+    .video-preview{
+      width: 340px;
+      margin-left: 15px;
+      vertical-align:top;
+      display: inline-block;
+     
+      
+    }
+    .video-info-grid{
+      display: grid;
+      grid-template-columns: 50px 1fr;
+      display: inline-block;
+    }
+
+      .channel-picture{
+        width: 50px;
+        margin-top: 0px;
+        display: inline-block;
+        margin-top: 0;
+        background-color: gray;
+        vertical-align: top;
+      }
+    
+
+      .video-info{
+       display: inline-block;
+       background-color: gray;
+       width: 200px;
+      }
+      .profile-picture{
+        width: 40px;
+        border-radius: 50px;
+        display: inline-block;
+        vertical-align: top;
+      }
+
+    </style>
+      </head>
+      <body>
+        <input class="surch-bar" type="text" placeholder="search"> <br>
+   <div class="video-preview">
+  <div class="thumbnail">
+    <div> <img class = "thumbnail" src="thumbnails/thumbnail-1.webp">
+  </div>
+</div>
+
+
+
+  <div class="video-info-grid">
+    <div class="channel-picture">
+    <div class="profile-picture"><img class="profile-picture" src="chanale-pictures/channel-1.jpeg">
+    </div>
+  </div>
+
+
+
+    <div class="video-info">
+      <div><p class="video-title">Talking Tech and AI with Google CEO Sundar Pichai!</p></div>
+      <div><p class="video-author">Marques Brownlee</p></div>        
+      <div><p class="video-stats">3.4M views &#183; 6 months ago </p></div></div>
+  </div> 
+   </div>
+  
+</div>
+
+        
+
+
+      </body>
+       
+     
+</html>
+
+
